@@ -1,6 +1,8 @@
 general:
   artifacts:
     - "./screenshots"
+    - "./logs"
+    - "./specs/results"
 machine:
   environment:
     PATH: $PATH:$HOME/selenium_circleci/bin
